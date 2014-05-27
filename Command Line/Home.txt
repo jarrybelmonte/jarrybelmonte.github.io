@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  
+  <head>
+    <title>
+      Command Line Interface
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="ExternalStyle.css">
+    <script>
+      function greet() {
+        alert("Hello! Are you ready to learn about command line interface? Click OK, to begin.");
+      }
+      greet();
+    </script>
+    <style type="text/css">
+      figure{
+        display:inline-block;
+        margin-left:0px;
+      }
+      figcaption{
+        color:white;
+        font:16px 'Courier New';
+      }
+      img{
+        height:200px;
+        width:350px;
+      }
+    </style>
+  </head>
+  
+  
+  <body>
+    <div class="head">
+      <h1>
+        The Command Line
+      </h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- NAVIGATION BAR -->
+    <div class="menu">
+      <a href="Home.html">
+        Home
+      </a>
+      <a href="Mac.html">
+        Linux
+      </a>
+      <a href="Windows.html">
+        Windows
+      </a>
+      <a href="Scenario.html">
+        Scenario
+      </a>
+    </div>
+    <br>
+    
+    <div class="content" style="padding:40px;text-align:justify;">
+      <h2>
+        Command Line
+      </h2>
+      <hr>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;A command-line interface (CLI), also known as command-line user interface, console user interface, and character user interface (CUI), is a means of interacting with a computer program where the user (or client) issues commands to the program in the form of successive lines of text (command lines).
+        <figure>
+          <figcaption>
+            Windows Command Line
+          </figcaption>
+          <img src="cmd.png">
+          
+        </figure>
+        <figure>
+          <figcaption>
+            Linux Command Line
+          </figcaption>
+          <img src="term.png">
+          
+        </figure>
+      </p>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;The CLI was the primary means of interaction with most computer systems until the introduction of the video display terminal in the mid-1960s, and continued to be used throughout the 1970s and 1980s on Unix systems and personal computer systems including MS-DOS, CP/M and Apple DOS. The interface is usually implemented with a command line shell, which is a program that accepts commands as text input and converts commands to appropriate operating system functions.
+        <br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Windows and Linux use different command-line. Windows uses CMD. You can access CMD through the search bar and typing "cmd" on the search box and click enter. Linux use terminal which is accessed through the spotlight (same thing as the search bar.) 
+        &nbsp;&nbsp;&nbsp;&nbsp;This website will show you all the commands for both Linux and Windows operating system and the scenario where you can use these commands.
+        <br>
+      </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="foot">
+      <p class="foot2">
+        &copy;Jarry Belmonte
+      </p>
+    </div>
+  </body>
+  
+  
+  
+</html>

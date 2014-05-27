@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  
+  <head>
+    <title>
+      Scenario
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="ExternalStyle.css">
+    <style type="text/css">
+      figure{
+        display:inline-block;
+        margin-left:0px;
+      }
+      figcaption{
+        color:white;
+        font:16px 'Courier New';
+        }
+      img{
+        height:200px;
+        width:350px;
+        }
+      .scene{
+        border:solid #FFF 2px;
+        text-align:center;
+      }
+      .os{
+        border:solid #FFF 2px;
+        text-align:center;
+        width:50%;
+      }
+    </style>
+  </head>
+  
+  
+  <body>
+    <div class="head">
+      <h1>
+    Scenario
+      </h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- NAVIGATION BAR -->
+    <div class="menu">
+      <a href="Home.html">
+        Home
+      </a>
+      <a href="Mac.html">
+        Linux
+      </a>
+      <a href="Windows.html">
+        Windows
+      </a>
+      <a href="Scenario.html">
+        Scenario
+      </a>
+    </div>
+    <br>
+    
+    <div class="content" style="padding:40px;text-align:justify;">
+      <h2>
+        Scenario
+      </h2>
+      <hr>
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;Here are some scenarios where you can use the Terminal and CMD commands.
+        <br>
+      </p>
+      <table>
+        <tr>
+          <td class="scene" colspan="2">
+            <p>
+              You want to check all the mounted drivers (internal and extenal) in your computer.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="os">
+            <p>
+              <strong>Linux</strong>
+              <br>
+              <em>** You can do this in any directory and will still show all drivers that are mounted in your computer. **</em>
+              <br>
+            </p>
+            <p style="color:#00FA9A">
+              <strong>diskutil list</strong>
+            </p>
+          </td>
+          <td class="os">
+            <p>
+              <strong>Windows</strong>
+              <br>
+              <br>
+              Not Available!
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <p>
+              You want to check all the hidden files in your current directory.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="os">
+            <p>
+              <strong>Linux</strong>
+              <br>
+              <em>** This will show all files/folder and hidden files/folders. **</em>
+              <br>
+            </p>
+            <p style="color:#00FA9A">
+              <strong>ls -a</strong>
+            </p>
+          </td>
+          <td class="os">
+            <p>
+              <strong>Windows</strong>
+              <br>
+              <em>** This will only show hidden files/folders. **</em>
+              <br>
+            </p>
+              <p style="color:#00FA9A">
+                <strong>dir /ah</strong>
+              </p>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <p>
+              You want to find all word document files in you home directory and what are the name of these files. We are going to use the <em>wildcard symbol</em> and it is the same symbol for Linux and Windows.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="os">
+            <p>
+              <strong>Linux</strong>
+              <br>
+            </p>
+            <p style="color:#00FA9A">
+              <strong>ls ~/*.docx</strong>
+            </p>
+          </td>
+          <td class="os">
+            <p>
+              <strong>Windows</strong>
+              <br>
+              <em>** Notice the space (not enter) after dir. **</em>
+            </p>
+            <p style="color:#00FA9A">
+              dir C:\Users\YourUserName\*.docx
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <p>
+              You have a command line that has too much codes. You want to clear them all out without restarting your Terminal/CMD.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="os">
+            <p>
+              <strong>Linux</strong>
+              <br>
+            </p>
+            <p style="color:#00FA9A">
+              <strong>clear</strong>
+            </p>
+          </td>
+          <td class="os">
+            <p>
+              <strong>Windows</strong>
+              <br>
+            </p>
+              <p style="color:#00FA9A">
+                <strong>cls</strong>
+              </p>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <p>
+              You want to completely delete a folder but your GUI (Graphical User Interface) is not letting you to do it.
+              <em>** Everything that got deleted in command line is permanently deleted. **</em>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="os">
+            <p>
+              <strong>Linux</strong>
+              <br>
+            </p>
+            <p style="color:#00FA9A">
+              <strong>rm -r FolderName</strong>
+            </p>
+          </td>
+          <td class="os">
+            <p>
+              <strong>Windows</strong>
+              <br>
+            </p>
+            <p style="color:#00FA9A">
+              <strong>erase FolderName</strong>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="scene" colspan="2">
+            <p>
+              You want to create multiple folders in your current directory without having to click and create new folder multiple times. 
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="os">
+            <p>
+              <strong>Linux</strong>
+              <br>
+            </p>
+            <p style="color:#00FA9A">
+              <strong>mkdir NameofFolder</strong>
+            </p>
+          </td>
+          <td class="os">
+            <p>
+              <strong>Windows</strong>
+              <br>
+            </p>
+            <p style="color:#00FA9A">
+              <strong>md NameofFolder</strong>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="foot">
+      <p class="foot2">
+        &copy;Jarry Belmonte
+      </p>
+    </div>
+  </body>
+  
+  
+  
+</html>

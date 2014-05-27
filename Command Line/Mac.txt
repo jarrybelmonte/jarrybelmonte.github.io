@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  
+  <head>
+    <title>
+      Linux Terminal Commands
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="ExternalStyle.css">
+    <style type="text/css">
+      #basic:link{
+        background-color:none;
+        display:inline;
+        font:22px "Courier New";
+        padding:0px;
+        text-decoration:underline;
+        width:80%;
+      }
+    </style>
+  </head>
+  
+  
+  <body>
+    <div class="head">
+      <h1>
+        Linux Terminal Commands
+      </h1>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="menu">
+      <a href="Home.html">
+        Home
+      </a>
+      <a href="Mac.html">
+        Linux
+      </a>
+      <a href="Windows.html">
+        Windows
+      </a>
+      <a href="Scenario.html">
+        Scenario
+      </a>
+    </div>
+    
+    <br>
+    
+    <div class="content" style="border:none;">
+      <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;**
+        <strong>
+          Linux(Mac)
+        </strong>
+        uses the 
+        <em>
+          Terminal
+        </em>
+        software to access 
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;the command line interface. **
+      </p>
+      <table>
+        <tr>
+          <td class="word">
+            <p>
+              cd
+            </p>
+          </td>
+          <td class="mean">
+            <p>
+              Change folder
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="word">
+            <p>
+              cd /
+            </p>
+          </td>
+          <td class="mean">
+            <p>
+              Change to the root drive (default drive)
+              <br>
+              <em style="color:red;">
+                (note the space after "cd")
+              </em>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="word">
+            <p>
+              cd ~
+            </p>
+          </td>
+          <td class="mean">
+            <p>
+              Change to the current folder
+            </br>
+          <em style="color:red;">
+            (note the space after "cd")
+          </em>
+        </p>
+    </td>
+  </tr>
+  <tr>
+    <td class="word">
+      <p>
+        cd ..
+      </p>
+    </td>
+    <td class="mean">
+      <p>
+        Change to the parent folder
+      </br>
+    <em style="color:red;">
+      (note the space after "cd")
+    </em>
+  </p>
+</td>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      <a href="Scenario.html" id="basic">
+        clear
+      </a>
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Clear the screen
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      cp
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Used to copy files from disk to disk or create a second copy of file on a single disk.
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      mv
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Used to move files from disk to disk or rename a file on a single disk.
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      rm
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Delete a file
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      <a href="Scenario.html" id="basic">
+        rm -r
+      </a>
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Delete a directory and all files & subdirectories
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      rmdir
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Delete an empty directory
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      ls
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      List/view/display the contents of a directory
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      <a href="scenario.html" id="basic">
+        ls -a
+      </a>
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      List/view/display all hidden files in a directory
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      ls -d */
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      List/view/display all directories
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      mount
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Eject driver from your computer.
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      <a href="Scenario.html" id="basic">
+        mkdir
+      </a>
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Create a folder/subfolder
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      rd
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Delete a folder
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      pwd
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Display the current Directory
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      <a href="scenario.html" id="basic">
+        diskutil list
+      </a>
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Show all drives (and information about the drive) that are connected
+    </p>
+  </td>
+</p>
+</tr>
+<tr>
+  <td class="word">
+    <p>
+      <a href="Scenario.html" id="basic">
+        *
+      </a>
+    </p>
+  </td>
+  <td class="mean">
+    <p>
+      Wildcard symbol
+    </p>
+  </td>
+</p>
+</tr>
+
+</table>
+</div>
+<br>
+<br>
+<br>
+<br>
+
+<div class="foot">
+  <p style="text-align:center;font-size:14px;">
+    &copy;Jarry Belmonte
+  </p>
+</div>
+
+</body>
+
+
+
+</html>
